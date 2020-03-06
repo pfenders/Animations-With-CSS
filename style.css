@@ -1,7 +1,18 @@
+
+/* psuedo classes */
 h1:hover{
     background-color: blue;
 }
 
 button:hover{
-    color:green;
+    color:red;
+}
+
+input:focus{
+    background-color: hotpink;
+}
+
+button:focus{
+    border-radius: 10px;
+    background-color: khaki;
 }
