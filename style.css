@@ -73,3 +73,26 @@ p.move-down{
 p:hover{
     transform: translate(20px, 20px);
 }
+
+.transform-scaling{
+    width: 50px;
+    height: 50px;
+    background-color: #18db63;
+    color: blue;
+    border: 2px solid yellow;
+    transform: translateY(200px);
+    transform: scaleY(2, 5);
+    transform-origin: right bottom;
+}
+
+h4{
+    width: 50px;
+    height: 50px;
+    background-color: #da3d93;
+    color: rgb(39, 38, 38);
+    border: 2px solid rgb(184, 184, 57);
+    transform: translateY(200px);
+    transform: translateY(200px);
+  
+}
+
