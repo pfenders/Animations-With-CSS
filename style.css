@@ -1,5 +1,5 @@
 
-/* psuedo classes */
+/* psuedo classes states */
 h1:hover{
     background-color: blue;
 }
@@ -15,4 +15,14 @@ input:focus{
 button:focus{
     border-radius: 10px;
     background-color: khaki;
+}
+
+button:active{
+    background-color: yellow;
+    font-size: 30px;
+}
+
+h1:active, p:active{
+    color: yellow;
+    font-size: 30px;
 }
