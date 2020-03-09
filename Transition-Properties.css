@@ -1,0 +1,22 @@
+p{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color:rgb(71, 43, 43);
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+p:hover{
+    background: #e74c3c;
+    transform-origin: top left;
+    transform:scale(2);
+    opacity: 0.5;
+}
+
+.animated-box{
+    transition-property: background-color;
+    transition-duration: 5s;
+}
