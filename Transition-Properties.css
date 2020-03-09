@@ -9,14 +9,25 @@ p{
     border-radius: 20px;
 }
 
-p:hover{
+/* p:hover{
     background: #e74c3c;
     transform-origin: top left;
-    transform:scale(2);
+    transform:scale(2) rotate(45deg);
+    border-radius: 50px;
     opacity: 0.5;
 }
 
 .animated-box{
-    transition-property: background-color;
-    transition-duration: 5s;
+    transition-property: background, border-radius;
+    transition-duration: 5s, 1s;
+    transition-delay: 2s, 0.5s;
+} */
+.animated-box{
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+p:hover{
+    transform: translateX(300px) translateY(500px);
 }
