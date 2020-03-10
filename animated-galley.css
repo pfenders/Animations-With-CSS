@@ -65,7 +65,7 @@ h1 {
   div.item.blue i {
     color: #34495e;
   }
-  
+
   div.item.red {
     background-color: #e74c3c;
   }
@@ -85,4 +85,23 @@ h1 {
     color: #16a085;
   }
   
+  div.item:hover img{
+      opacity: 0.3;
+      filter: grayscale(100%);
+  }
+/* affect all item div */
+  div.item * {
+     transition: all .35s ease-in-out;
+  }
+
+  div.item i {
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+  
+  div.item:hover i {
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+   
   
